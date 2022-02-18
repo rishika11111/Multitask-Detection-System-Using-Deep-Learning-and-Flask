@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='/homepage.css')}}">
+    <title>Home</title>
+  </head>
+  <body>
+    <h1 id="welcome"> WELCOME TO ML HUB </h1>
+    <h2 id="heading"> A Multitask Detection System </h2>
+    <a class="cd" href={{ url_for('upload_file') }}>COVID DETECTION</a><br>
+    <br style = “line-height:100;”>
+    <a class="dd" href={{ url_for('video_feed') }}>DROWSINESS DETECTION</a><br>
+    <br style = “line-height:100;”>
+    <a href={{ url_for('fe') }}>FACE AND EYE DETECTION</a><br>
+  </body>
+</html>
